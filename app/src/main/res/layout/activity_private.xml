@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/privatebk"
+    android:orientation="vertical"
+    tools:context=".PrivateActivity">
+
+    <Button
+        android:id="@+id/btn_iiuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/zoom_plate"
+        android:fontFamily="cursive"
+        android:text="Iiuc"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_brac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/zoom_plate"
+        android:fontFamily="cursive"
+        android:text="Brac"
+        android:textColor="@android:color/holo_red_light"
+        android:textColorHighlight="@android:color/holo_orange_dark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_nsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/zoom_plate"
+        android:fontFamily="cursive"
+        android:text="Nsu"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_wub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/zoom_plate"
+        android:fontFamily="cursive"
+        android:text="Wub"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="24sp" />
+</LinearLayout>
